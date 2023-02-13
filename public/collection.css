@@ -1,0 +1,31 @@
+
+
+
+.product-h{
+    height: 600px;
+}
+.img1:hover{
+
+    transition: 2ms ease-out;
+}
+.height{
+
+position: relative;
+
+background-size: cover;
+background-position: center;
+overflow: hidden;
+
+bottom: 0;
+}
+.img-text{
+    position: absolute;
+    bottom: 40px;
+}
+
+.hi{
+    height: 500px;
+}
+.slider-height{
+    height: 700px;
+}

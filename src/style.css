@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400&display=swap'); */
+
+
+/* SIDE MENU  */
+.side_menu_container {
+    @apply  bg-black  bg-blend-overlay bg-opacity-40  fixed w-full h-full top-0 shadow-gray-600 shadow-2xl z-30 ;
+}
+.side_menu {
+    @apply  bg-black   fixed w-[300px] h-full transform translate-x-0 transition-[transform] duration-[.8s];
+}
+
+.close{
+    @apply hidden;
+}
+.close_form{
+    @apply hidden;
+}
+
+
+/* ON SCROLL EFFECT */
+.scrolled{
+    @apply bg-black text-white transition-colors duration-700 ;
+}
+.remove_fixed_header{
+    @apply hidden transition-all;
+}
+
+ .testimonial .swiper-pagination{
+    @apply relative;
+}
+
+
+
+.directors .swiper-pagination-bullet {
+    @apply w-6 h-6 text-center  leading-5 text-xs  text-black bg-blue-300
+}
+
+.directors .swiper-pagination-bullet-active {
+    @apply text-white bg-blue-800
+}

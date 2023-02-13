@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" >
+    <link rel="stylesheet" href="./home_assets/main.css">
+    <link rel="stylesheet" href="./styles.css">
+
+   
+
+    <title>Twote - Blog</title>
+</head>
+<body class="font-sans-serif body_stack ">
+
+    <div class="relative">
+
+
+        <!-- SIDE NAV -->
+   
+        <div class="side_menu_container  close" >
+            <div class="side_menu ">
+
+                <div class=" cursor-pointer relative top-5 left-6 ">
+                    <svg class="text-white mobile_active" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                     </svg>
+                </div>
+
+                <div class=" mt-10  py-10 w-full h-full relative text-primary">
+
+                    <div class="pl-6  pr-5 w-full">
+                        <ul>
+                           
+                            <li class="pb-5 pt-3  text-sm  border-b-[0.4px] border-b-primary"><a href="./index.html" class=" uppercase tracking-[0.13em]">Home</a></li>
+                            <li class="pb-5 pt-3  text-sm border-b-[0.4px] border-b-primary"><a href="./About-us.html" class=" uppercase tracking-[0.13em]">About us</a></li>
+                            <li class="pb-5 pt-3  text-sm border-b-[0.4px] border-b-primary"><a href="./collection.html" class=" uppercase tracking-[0.13em]">Collection</a></li>
+                            <li class="pb-5 pt-3  text-sm border-b-[0.4px] border-b-primary"><a href="./blog.html" class=" uppercase tracking-[0.13em]">Blog</a></li>
+                            <li class="pb-5 pt-3  text-sm border-b-[0.4px] border-b-primary"><a href="./Gifting.html" class=" uppercase tracking-[0.13em]">Gifting</a></li>
+                            <li class="pb-5 pt-3  text-sm border-b-[0.4px] border-b-primary"><a href="./Contact-us.html" class=" uppercase tracking-[0.13em]">Contact us</a></li>
+                      
+                        </ul>
+
+                    </div>
+
+                   
+                    <div class="absolute bottom-0  border-t border-t-primary w-full h-28 ">
+                        <div class="flex  justify-between  w-full   text-white  ">
+
+                            <div class=" border border-t-0 border-primary  px-5 py-3"> 
+                                <select name="language" id="" class="cursor-pointer appearance-none  bg-transparent text-white border-0 outline-none  uppercase text-sm">
+                                    <option value="USD" selected class="bg-white text-sm">usd</option>
+                                    <option value="USD" class="bg-white text-black text-sm">cad</option>
+                                    <option value="USD" class="bg-white text-black text-sm">eur</option>
+                                    <option value="USD" class="bg-white text-black text-sm">gbp</option>
+                                </select>
+                            </div>
+
+                              <div class="p-4">
+                                    <a href="/" >
+                                        <iconify-icon class="font-bold text-xl " icon="ei:sc-facebook"></iconify-icon>
+                                    </a>
+                               </div>
+                              <div class="p-4">
+                                    <a href="/" >
+                                        <iconify-icon class="font-bold text-xl " icon="carbon:logo-twitter"></iconify-icon>
+                                    </a>
+                               </div>
+                              <div class="p-4">
+                                    <a href="/" >
+                                        <iconify-icon class="font-bold text-xl" icon="la:instagram"></iconify-icon>
+                                    </a>
+                               </div>
+                              <div class="p-4">
+                                    <a href="/" >
+                                        <iconify-icon class="font-bold text-xl " icon="bxl:pinterest"></iconify-icon>
+                                    </a>
+                               </div>
+                    
+                        </div>
+                    </div>
+
+                </div>
+
+                
+            </div>
+            
+          
+        </div>
+        <div class="">
+
+            <header class=" w-full fixed top-0 z-20">
+
+                <div class=" ">
+
+
+                    <div class="bg-black text-white py-4 text-center px-5 fixed_header">
+                        <p class="text-sm">OUR SORREL & CALLOLOO TOTES ARE NOW BACK IN STOCK!</p>
+                    </div>
+            
+                    <nav class="w-full relative ">
+            
+                        <div class="scroll_header bg-black hover:transition-all hover:duration-700 text-white hover:text-white hover:bg-black  py-2">
+            
+                            <div class="flex justify-between items-center px-5">
+                                <!-- TOGGLE SIDE NAV -->
+                                <div class=" ">
+                                    <div class="mobile_toggller menu_harmburger cursor-pointer  ">
+                                        <span class="bg-white each_toggller w-[25px] h-[1.5px] mb-[4px] block rounded  "></span>
+                                        <span class="bg-white each_toggller w-[25px] h-[1.5px] mb-[4px]  block rounded  "></span>
+                                        <span class="bg-white each_toggller w-[25px] h-[1.5px] mb-[4px]  block rounded  "></span>
+                                    </div>
+            
+                                </div>
+
+                                <!-- LOGO -->
+                                <div class="">
+                                    <a href="/">
+                                        <h1 class="capitalize text-lg tracking-widest text-white">T|W TOTE </h1>
+                                    </a>
+                                </div>
+
+                                <!-- ITEMS -->
+                                <div class="flex justify-between items-center   ">
+                                    <div class=" pr-3 md:pr-5 self-center hidden lg:block"> 
+                                        <select name="language" id="" class="cursor-pointer appearance-none p-3 bg-transparent hover:text-white border-0 outline-none  uppercase text-sm">
+                                            <option value="USD" selected class="bg-white text-black text-sm">usd</option>
+                                            <option value="USD" class="bg-white text-black text-sm">cad</option>
+                                            <option value="USD" class="bg-white text-black text-sm">eur</option>
+                                            <option value="USD" class="bg-white text-black text-sm">gbp</option>
+                                        </select>
+                                    </div>
+
+                                    <div class=" pr-3 md:pr-5 flex cursor-pointer"> 
+                                        <iconify-icon icon="carbon:search" class="self-center search_icon text-lg font-bold"></iconify-icon>
+                                    </div>
+
+                                    <div class="flex cursor-pointer">
+                                        <iconify-icon icon="bi:cart" class="self-center text-lg font-bold"></iconify-icon>
+                                    </div>
+                                    
+            
+                                </div>
+            
+                            </div>
+                        </div>
+                        
+                    </nav>
+
+                    <div class="search_container w-full py-5 -mt-5 hidden">
+                        <form action="">
+                            <div class="flex relative">
+                                <iconify-icon icon="carbon:search" class="pointer-events-none top-5  absolute  left-3 self-center text-lg font-bold border-0 outline-none text-black"></iconify-icon>
+                               <input type="search" name="" id="" class="w-full outline-none py-5 border-0 px-8 bg-primary  text-black">
+                            </div>
+                        </form>
+                    </div>
+            
+
+                </div>
+
+
+            </header>
+
+            <!-- MAIN PAGE -->
+
+            <main class="mt-20 z-10">
+
+
+                <!-- Please and please try to comment your code. Thanks -->
+
+                <div class="text-center ">
+                    <div class="pt-10 flex-col justify-center items-center">
+                        <!-- PRODUCTS -->
+                        <div class="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                            <!-- PRODUCT -->
+                            <div class="w-full">
+                                <a href="/">
+                                    <div class="w-full  lg:w-[400px] h-[250px] bg-transform scale-[1] transition-transform  hover:scale-[1.1] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/blog1.webp')]">
+                                    </div>
+                                </a>
+                                <!-- CONTENT -->
+                                <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                    <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                        T|W'S GUIDE TO HOLIDAY SELF CARE
+                                    </a>
+                            
+                                    <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">As we shift gears and head into the Fall season, it’s natural to look ahead to the upcoming holidays. For some this may mean excitement - it’s...</p>
+                                    <div class="mt-8 self-start">
+                                        <a href="/" class=" text-left">
+                                            <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                      </a>
+            
+                                  </div>
+                                </div>
+                        
+                            </div>
+                  
+                            <!-- PRODUCT -->
+                            <div class="w-full">
+                                <a href="/">
+                                    <div class="w-full  lg:w-[400px] h-[250px] bg-transform scale-[1] transition-transform  hover:scale-[1.1] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/blog2.webp')]">
+                                    </div>
+                                </a>
+                                <!-- CONTENT -->
+                                <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                    <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                        SUSTAINABILITY IN FOCUS - IT’S NOT ONLY THE VEGAN LEATHER!
+                                    </a>
+                            
+                                    <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">Our Republic raise is drawing to a close soon, and we want to take a moment and reflect on what this phase of T|W means to us. First of all, we wan...</p>
+                                    <div class="mt-8 self-start">
+                                        <a href="/" class=" text-left">
+                                            <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                      </a>
+            
+                                  </div>
+                                </div>
+                        
+                            </div>
+                  
+                            <!-- PRODUCT -->
+                            <div class="w-full">
+                                <a href="/">
+                                    <div class="w-full  lg:w-[400px] h-[250px] bg-transform scale-[1] transition-transform  hover:scale-[1.1] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/blog3.webp')]">
+                                    </div>
+                                </a>
+                                <!-- CONTENT -->
+                                <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                    <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                        REPUBLIC RAISE UPDATE - WE'RE HALFWAY THERE!
+                                    </a>
+                            
+                                    <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">We’re a little over a month into our Republic raise, and we are thrilled, humbled, and grateful to report that we’ve met our first target! With jus...</p>
+                                    <div class="mt-8 self-start">
+                                        <a href="/" class=" text-left">
+                                            <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                      </a>
+            
+                                  </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+            
+            
+            
+                
+                    </div>
+            
+                </div>
+                <div class="text-center ">
+                    <div class="pt-10 flex-col justify-center items-center">
+                        <!-- PRODUCTS -->
+                        <div class="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                            <!-- PRODUCT -->
+                            <div class="w-full">
+                                <a href="/">
+                                    <div class="w-full  lg:w-[400px] h-[250px] bg-transform scale-[1] transition-transform  hover:scale-[1.1] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/blog4.webp')]">
+                                    </div>
+                                </a>
+                                <!-- CONTENT -->
+                                <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                    <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                        A T|W SUPPLY CHAIN STORY
+                                    </a>
+                            
+                                    <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">If there’s one thing we can agree on, it’s that the pandemic was a huge disruptor across all sectors. The details of why and how are apparently ope...</p>
+                                    <div class="mt-8 self-start">
+                                        <a href="/" class=" text-left">
+                                            <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                      </a>
+            
+                                  </div>
+                                </div>
+                        
+                            </div>
+                  
+                            <!-- PRODUCT -->
+                            <div class="w-full">
+                                <a href="/">
+                                    <div class="w-full  lg:w-[400px] h-[250px] bg-transform scale-[1] transition-transform  hover:scale-[1.1] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/blog5.webp')]">
+                                    </div>
+                                </a>
+                                <!-- CONTENT -->
+                                <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                    <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                        INVEST IN T|W WITH REPUBLIC
+                                    </a>
+                            
+                                    <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">T|W is now on private investment platform Republic 🙌🏾 🙌🏾</p>
+                                    <div class="mt-8 self-start">
+                                        <a href="/" class=" text-left">
+                                            <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                      </a>
+            
+                                  </div>
+                                </div>
+                        
+                            </div>
+                  
+                            <!-- PRODUCT -->
+                            <div class="w-full">
+                                <a href="/">
+                                    <div class="w-full  lg:w-[400px] h-[250px] bg-transform scale-[1] transition-transform  hover:scale-[1.1] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/blog6.webp')]">
+                                    </div>
+                                </a>
+                                <!-- CONTENT -->
+                                <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                    <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                        JUNETEENTH, T|W STYLE
+                                    </a>
+                            
+                                    <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">Celebrating Black America on Juneteenth: our perspective</p>
+                                    <div class="mt-8 self-start">
+                                        <a href="/" class=" text-left">
+                                            <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                      </a>
+            
+                                  </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+            
+            
+            
+            
+                
+                    </div>
+            
+                </div>
+                <div class="text-center ">
+                    <div class="pt-10 flex-col justify-center items-center">
+                        <!-- PRODUCTS -->
+                        <div class="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                            <!-- PRODUCT -->
+                            <div class="w-full">
+                                <a href="/">
+                                    <div class="w-full  lg:w-[400px] h-[250px] bg-transform scale-[1] transition-transform  hover:scale-[1.1] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/blog7.jpg')]">
+                                    </div>
+                                </a>
+                                <!-- CONTENT -->
+                                <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                    <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                        THE CELEBRATION OF KWANZAA!
+                                    </a>
+                            
+                                    <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">Kwanzaa is a celebration of family, community, and culture. Fast Fact - There are three official Kwanzaa colors: black, red, and green, and there ...</p>
+                                    <div class="mt-8 self-start">
+                                        <a href="/" class=" text-left">
+                                            <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                      </a>
+            
+                                  </div>
+                                </div>
+                        
+                            </div>
+                  
+                            <!-- PRODUCT -->
+                            <div class="w-full">
+                                <a href="/">
+                                    <div class="w-full  lg:w-[400px] h-[250px] bg-transform scale-[1] transition-transform  hover:scale-[1.1] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/blog7.webp')]">
+                                    </div>
+                                </a>
+                                <!-- CONTENT -->
+                                <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                    <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                        THE WEEKEND(ER) IS HERE!
+                                    </a>
+                            
+                                    <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">The title of the blog is a way to introduce our newest family member!  Welcome the Weekender! This is the opportune time for its arrival as those ...</p>
+                                    <div class="mt-8 self-start">
+                                        <a href="/" class=" text-left">
+                                            <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                      </a>
+            
+                                  </div>
+                                </div>
+                        
+                            </div>
+                  
+                            <!-- PRODUCT -->
+                            <div class="w-full">
+                                <a href="/">
+                                    <div class="w-full  lg:w-[400px] h-[250px] bg-transform scale-[1] transition-transform  hover:scale-[1.1] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/blog8.webp')]">
+                                    </div>
+                                </a>
+                                <!-- CONTENT -->
+                                <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                    <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                        TO BE THANKFUL!
+                                    </a>
+                            
+                                    <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">T - Thankful to be alive and breathing. What a year 2021 is turning out to be!  Vaccines, people venturing outside, smiling and elbow bumping.  I...</p>
+                                    <div class="mt-8 self-start">
+                                        <a href="/" class=" text-left">
+                                            <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                      </a>
+            
+                                  </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+            
+            
+            
+            
+                
+                    </div>
+            
+                </div>
+                <div class="text-center ">
+                    <div class="pt-10 flex-col justify-center items-center">
+                        <!-- PRODUCTS -->
+                        <div class="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                            <!-- PRODUCT -->
+                            <div class="w-full">
+                                <a href="/">
+                                    <div class="w-full  lg:w-[400px] h-[250px] bg-transform scale-[1] transition-transform  hover:scale-[1.1] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/blog9.webp')]">
+                                    </div>
+                                </a>
+                                <!-- CONTENT -->
+                                <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                    <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                        THREE YEARS YOUNG - DEC 13, 2021 - AND GOING STRONG!
+                                    </a>
+                            
+                                    <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">December 13, 2021 is T|W Tote's 3rd Anniversary!  Hooray for Us! The road to success is often rocky and tenuous; however, the lessons learned are i...</p>
+                                    <div class="mt-8 self-start">
+                                        <a href="/" class=" text-left">
+                                            <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                      </a>
+            
+                                  </div>
+                                </div>
+                        
+                            </div>
+                  
+                            <!-- PRODUCT -->
+                            <div class="w-full">
+                                <a href="/">
+                                    <div class="w-full  lg:w-[400px] h-[250px] bg-transform scale-[1] transition-transform  hover:scale-[1.1] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/blog10.webp')]">
+                                    </div>
+                                </a>
+                                <!-- CONTENT -->
+                                <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                    <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                        WHAT ARE CUSTOMERS SAYING ABOUT T|W TOTE…
+                                    </a>
+                            
+                                    <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">So, it finally came!  All the anticipation, anxiety, and the excitement of its arrival has culminated in this moment.  Finally, a luxury multi-purp...
+            
+                                    </p>
+                                    <div class="mt-8 self-start">
+                                        <a href="/" class=" text-left">
+                                            <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                      </a>
+            
+                                  </div>
+                                </div>
+                        
+                            </div>
+                  
+                            <!-- PRODUCT -->
+                            <div class="w-full">
+                                <a href="/">
+                                    <div class="w-full  lg:w-[400px] h-[250px] bg-transform scale-[1] transition-transform  hover:scale-[1.1] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/blog12.webp')]">
+                                    </div>
+                                </a>
+                                <!-- CONTENT -->
+                                <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                    <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                        CELEBRATE WOMEN IN BUSINESS - SEPTEMBER 22, 2021
+                                    </a>
+                            
+                                    <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">What’s being celebrated - one might ask? Business Women’s Day recognizes the value and contributions of women (and future women) to the business wo...</p>
+                                    <div class="mt-8 self-start">
+                                        <a href="/" class=" text-left">
+                                            <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                      </a>
+            
+                                  </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+            
+            
+            
+            
+                
+                    </div>
+            
+                </div>
+
+                <!-- MAIN PAGE -->
+
+
+
+               
+                <!--===========  Footer -->
+                <footer class="py-20 px-5 bg-black text-white">
+                    <div class="relative">
+
+                        <div class="max-w-screen-2xl lg:px-10   mx-auto flex md:grid md:grid-cols-2 lg:grid-cols-3 justify-between lg:items-center flex-col lg:flex-row">
+            
+                            <!-- ========Footer 1 -->
+                            <div  class="mb-5 self-start">
+                                <h4 class="text-secondary-200 font-semibold text-base">PRODUCT INFO</h4> 
+                                <div class="mt-5">
+                                    <ul role="list" class="text-left text-white">
+                                        <a href="./qualitypromise.html" class="block">
+                                        <li class="">
+                                            <h3 class="pb-1 font-light ">Quality Promise</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./howitsmade.html" class="block">
+                                        <li class="">
+                                            <h3 class="pb-1 font-light ">How It's Made</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./returnpolicy.html" class="block">
+                                        <li class="">
+                                            <h3 class="pb-1 font-light ">Return Policy</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./warranty.html" class="block">
+                                        <li class="">
+                                            <h3 class="pb-1 font-light ">Warranty</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./shipping.html" class="block">
+                                        <li class="">
+                                            <h3 class="pb-1 font-light ">Shipping</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./billing.html" class="block">
+                                        <li class="">
+                                            <h3 class="pb-1 font-light ">Billing</h3>
+                                        </li>
+                                        </a>
+                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <!-- ========Footer 2 -->
+                            <div  class="mb-5 self-start">
+        
+                                <h4 class="text-secondary-200 font-semibold text-base">GENERAL INFO</h4>   
+                                <div class="mt-5">
+                                    <ul role="list" class="text-left text-white">
+                                        <a href="./contact-us.html" class="block">
+                                        <li class="">
+                                            <h3 class ="pb-1 font-medium" >Contact Us</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./about-us.html" class="block">
+                                        <li class="">
+                                            <h3 class ="pb-1 font-medium">About Us</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./career.html" class="block">
+                                        <li class="">
+                                            <h3 class ="pb-1 font-medium">Careers</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./blog-library.html" class="block">
+                                        <li class="">
+                                            <h3 class ="pb-1 font-medium">Blog Library</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./blog.html" class="block">
+                                        <li class="">
+                                            <h3 class ="pb-1 font-medium">Blog</h3>
+                                        </li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <!-- ========Footer 3 -->
+                            <div class="mb-5 self-start md:col-start-1 md:col-end-3 lg:col-start-3 lg:col-end-4">
+                                <div class="">
+                                <h4 class="mb-5">ABOUT THE STORE</h4>
+                                    <p>As a luxury brand, T|W Tote wants to change how people view sustainable products. Consider the T|W Tote a look great and feel great purchase. Our product guarantees to boost your confidence and inspire intrigue with this professional-looking bag. Sporting this tote not only means you’re supporting a Black-owned small business. It means you're helping the planet, too.</p>
+                                </div>
+    
+                                <div class="py-5 flex justify-between items-center max-w-[180px]">
+                                    <a href="/">
+                                        <span ><iconify-icon class="font-bold text-xl " icon="ei:sc-facebook"></iconify-icon></span>
+                                    </a>
+                                    <a href="/">
+                                        <span ><iconify-icon class="font-bold text-xl " icon="carbon:logo-twitter"></iconify-icon></span>
+                                    </a>
+                                    <a href="/">
+                                        <span ><iconify-icon class="font-bold text-xl " icon="la:instagram"></iconify-icon></span>
+                                    </a>
+                                    <a href="/">
+                                        <span ><iconify-icon class="font-bold text-xl " icon="bxl:pinterest"></iconify-icon></span>
+                                        
+                                    </a>
+                                </div>
+                            
+                            </div>
+    
+                            <div class="self-center lg:self-start col-start-1 col-end-4 ">
+                                 <div>
+                                    <p>© T|W TOTE </p>
+                                    <span class="block ">Powered by Shopify</span> 
+                                 </div>
+    
+                                 <div>
+    
+                                 </div>
+                            </div>
+                        
+                          </div>
+
+                          <div class="cursor-pointer open_contact_form fixed bottom-0 rounded-t-md uppercase right-0 p-1 text-normal font-bold bg-red-700 text-white">
+                             contact us
+                          </div>
+
+                    </div>
+                 
+            
+                </footer>
+            
+                            
+
+            
+            </main>
+        </div>
+
+       <div class="bg-black close_form  contact_form bg-blend-overlay bg-opacity-40 flex justify-center items-center  fixed w-full h-full top-0 shadow-gray-600 shadow-2xl z-30">
+            <div class=" bg-red-800 px-3 rounded-md py-4  fixed   text-white">
+                <div class="flex justify-between">
+                  <h2 class="pb-4 font-semibold text-xl">Contact us</h2>
+                  <svg class="text-white form_harmbuger cursor-pointer" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                 </svg>
+                </div>
+                 <p class="pb-3">Have a question? Want to offer feedback? Something on your mind?</p>
+                <div>
+                    <form action="">
+                        <div class="py-2.5">
+                            <label for="name" class="pb-2">Name:</label>
+                            <input type="text" name="" id="" class="pl-3 py-2 outline-none  rounded-sm border-0 w-full bg-white text-black">
+                        </div>
+                        <div class="py-2.5">
+                            <label for="name" class="pb-2">Email:</label>
+                            <input type="text" name="" id="" class="pl-3 py-2 outline-none rounded-sm border-0 w-full bg-white text-black">
+                        </div>
+                        <div class="py-2.5">
+                            <label for="name" class="pb-2"> Subject:</label>
+                            <input type="text" name="" id="" class="pl-3 py-2 outline-none rounded-sm border-0 w-full bg-white text-black">
+                        </div>
+                        <div class="py-2.5">
+                            <label for="name" class="pb-2">Message:</label>
+                            <textarea name="" id="" cols="30" rows="3" class="pl-3 resize-none py-2 outline-none rounded-sm border-0 w-full bg-white text-black"></textarea>
+                        </div>
+
+                        <div>
+                            <button class="px-3 py-2 bg-black text-white rounded-sm border-0  outline-none">Send Message</button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+       </div>
+
+    </div>
+
+  
+    
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- ICONIFY ICON -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+        <!--  JS JQUERY  -->
+        <script src="./Js/jquery.js"></script>
+        <!-- CUSTOM JS  -->
+        <script src="./js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+

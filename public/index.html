@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" >
+    <link rel="stylesheet" href="./home_assets/main.css">
+    <link rel="stylesheet" href="./styles.css">
+
+   
+
+    <title>Twote - Blog</title>
+</head>
+<body class="font-sans-serif body_stack ">
+
+    <div class="relative">
+
+
+        <!-- SIDE NAV -->
+   
+        <div class="side_menu_container  close" >
+            <div class="side_menu ">
+
+                <div class=" cursor-pointer relative top-5 left-6 ">
+                    <svg class="text-white mobile_active" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                     </svg>
+                </div>
+
+                <div class=" mt-10  py-10 w-full h-full relative text-primary">
+
+                    <div class="pl-6  pr-5 w-full">
+                        <ul>
+                           
+                            <li class="pb-5 pt-3  text-sm  border-b-[0.4px] border-b-primary"><a href="./index.html" class=" uppercase tracking-[0.13em]">Home</a></li>
+                            <li class="pb-5 pt-3  text-sm border-b-[0.4px] border-b-primary"><a href="./About-us.html" class=" uppercase tracking-[0.13em]">About us</a></li>
+                            <li class="pb-5 pt-3  text-sm border-b-[0.4px] border-b-primary"><a href="./collection.html" class=" uppercase tracking-[0.13em]">Collection</a></li>
+                            <li class="pb-5 pt-3  text-sm border-b-[0.4px] border-b-primary"><a href="./blog.html" class=" uppercase tracking-[0.13em]">Blog</a></li>
+                            <li class="pb-5 pt-3  text-sm border-b-[0.4px] border-b-primary"><a href="./Gifting.html" class=" uppercase tracking-[0.13em]">Gifting</a></li>
+                            <li class="pb-5 pt-3  text-sm border-b-[0.4px] border-b-primary"><a href="./Contact-us.html" class=" uppercase tracking-[0.13em]">Contact us</a></li>
+                      
+                        </ul>
+
+                    </div>
+
+                   
+                    <div class="absolute bottom-0  border-t border-t-primary w-full h-28 ">
+                        <div class="flex  justify-between  w-full   text-white  ">
+
+                            <div class=" border border-t-0 border-primary  px-5 py-3"> 
+                                <select name="language" id="" class="cursor-pointer appearance-none  bg-transparent text-white border-0 outline-none  uppercase text-sm">
+                                    <option value="USD" selected class="bg-white text-sm">usd</option>
+                                    <option value="USD" class="bg-white text-black text-sm">cad</option>
+                                    <option value="USD" class="bg-white text-black text-sm">eur</option>
+                                    <option value="USD" class="bg-white text-black text-sm">gbp</option>
+                                </select>
+                            </div>
+
+                              <div class="p-4">
+                                    <a href="/" >
+                                        <iconify-icon class="font-bold text-xl " icon="ei:sc-facebook"></iconify-icon>
+                                    </a>
+                               </div>
+                              <div class="p-4">
+                                    <a href="/" >
+                                        <iconify-icon class="font-bold text-xl " icon="carbon:logo-twitter"></iconify-icon>
+                                    </a>
+                               </div>
+                              <div class="p-4">
+                                    <a href="/" >
+                                        <iconify-icon class="font-bold text-xl" icon="la:instagram"></iconify-icon>
+                                    </a>
+                               </div>
+                              <div class="p-4">
+                                    <a href="/" >
+                                        <iconify-icon class="font-bold text-xl " icon="bxl:pinterest"></iconify-icon>
+                                    </a>
+                               </div>
+                    
+                        </div>
+                    </div>
+
+                </div>
+
+                
+            </div>
+            
+          
+        </div>
+
+        <!-- MAIN PAGE -->
+
+        <div class="">
+
+            <header class=" w-full fixed top-0 z-20">
+
+                <div class=" ">
+
+
+                    <div class="bg-black text-white py-4 text-center px-5 fixed_header">
+                        <p class="text-sm">OUR SORREL & CALLOLOO TOTES ARE NOW BACK IN STOCK!</p>
+                    </div>
+            
+                    <nav class="w-full relative ">
+            
+                        <div class="scroll_header hover:transition-all hover:duration-700 text-white hover:text-white hover:bg-black  py-2">
+            
+                            <div class="flex justify-between items-center px-5">
+                                <!-- TOGGLE SIDE NAV -->
+                                <div class=" ">
+                                    <div class="mobile_toggller menu_harmburger cursor-pointer  ">
+                                        <span class="bg-white each_toggller w-[25px] h-[1.5px] mb-[4px] block rounded  "></span>
+                                        <span class="bg-white each_toggller w-[25px] h-[1.5px] mb-[4px]  block rounded  "></span>
+                                        <span class="bg-white each_toggller w-[25px] h-[1.5px] mb-[4px]  block rounded  "></span>
+                                    </div>
+            
+                                </div>
+
+                                <!-- LOGO -->
+                                <div class="">
+                                    <a href="/">
+                                        <h1 class="capitalize text-lg tracking-widest text-white">T|W TOTE </h1>
+                                    </a>
+                                </div>
+
+                                <!-- ITEMS -->
+                                <div class="flex justify-between items-center   ">
+                                    <div class=" pr-3 md:pr-5 self-center hidden lg:block"> 
+                                        <select name="language" id="" class="cursor-pointer appearance-none p-3 bg-transparent hover:text-white border-0 outline-none  uppercase text-sm">
+                                            <option value="USD" selected class="bg-white text-black text-sm">usd</option>
+                                            <option value="USD" class="bg-white text-black text-sm">cad</option>
+                                            <option value="USD" class="bg-white text-black text-sm">eur</option>
+                                            <option value="USD" class="bg-white text-black text-sm">gbp</option>
+                                        </select>
+                                    </div>
+
+                                    <div class=" pr-3 md:pr-5 flex cursor-pointer"> 
+                                        <iconify-icon icon="carbon:search" class="self-center search_icon text-lg font-bold"></iconify-icon>
+                                    </div>
+
+                                    <div class="flex cursor-pointer">
+                                        <iconify-icon icon="bi:cart" class="self-center text-lg font-bold"></iconify-icon>
+                                    </div>
+                                    
+            
+                                </div>
+            
+                            </div>
+                        </div>
+                        
+                    </nav>
+
+                    <div class="search_container w-full py-5 -mt-5 hidden">
+                        <form action="">
+                            <div class="flex relative">
+                                <iconify-icon icon="carbon:search" class="pointer-events-none top-5  absolute  left-3 self-center text-lg font-bold border-0 outline-none text-black"></iconify-icon>
+                               <input type="search" name="" id="" class="w-full outline-none py-5 border-0 px-8 bg-primary  text-black">
+                            </div>
+                        </form>
+                    </div>
+            
+
+                </div>
+
+
+            </header>
+
+            <main class="mt-0 z-10">
+               <!-- SECTION ONE -  HERO SECTION START  -->
+                <section class="header_banner_container bg-black bg-blend-overlay bg-opacity-40 flex justify-center items-center lg:block relative lg:px-20 px-10 w-full  h-screen  bg-cover bg-center bg-no-repeat  bg-[url('image/blog2.webp')]">
+
+                    <div>
+                        <!-- HERO SECTION CONTENT  -->
+                        <div class="lg:absolute lg:bottom-28  ">
+                            <div class="text-white flex flex-col justify-center lg:block items-center">
+                                <h3 class="uppercase text-center lg:text-left pb-6 font-semibold text-base ">you'll noticed the difference</h3>
+                                <h2 class="uppercase text-center tracking-widest  lg:text-left  pb-5 font-bold text-2xl">luxury short term carry</h2>
+                                <a href="/" class="">
+                                     <button class="px-10 text-center whitespace-nowrap max-w-sx sm:max-w-xs relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-full after:w-0 after:top-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase py-3  bg-black border font-medium text-sm border-black">shop our collection</button>
+                                </a>
+                            
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+               <!-- HERO SECTION END  -->
+
+
+               <!-- SECTION TWO -  ABOUT SECTION START  -->
+                <section class="py-20 px-5 bg-primary border-b border-b-secondary">
+                    <div class="max-w-[450px] mx-auto ">
+                            <div class="text-center text-black">
+                                <h2 class="uppercase text-base pb-3 tracking-widest ">luxury short term carry</h2>
+
+                                <h3 class="uppercase tracking-widest tracking pb-5 font-normal text-2xl ">where fashion meets sustainability</h3>
+                                <p class="font-thin  text-base">As a luxury brand, T|W Tote wants to change how people view fashion and <a href="/" class="underline">sustainability</a> . Our vegan leather, insulated lunch bags are designed to keep your food warm or cold while you are on the go. Our vegan leather duffle bags are impeccable statement pieces. The quality is unmatched. Whether you are a man, woman or non-binary person, T|W Tote is designed for you.</p>
+                            </div>
+                    </div>
+            
+                </section>
+               <!-- ABOUT SECTION END  -->
+
+
+               <!-- SECTION THREE - SHOWCASE PRODUCT SECTION START  -->
+                <section class="py-20 px-5 bg-primary ">
+                    <div class="max-w-[768px] mx-auto">
+                         <div class="grid gap-5 md:gap-10   md:flex flex-col md:flex-row justify-center items-center">
+
+                            <div class="text-center flex justify-center items-center" >
+                                <img class="text-center  md::h-[600px] md::w-[600px] "  src="./image/collection img-1.webp" alt="">
+                            </div>
+
+                            <div class="">
+                                <div class="text-center md:text-left">
+                                    <div class="px-[40px] md:px-0">
+                                        <h4 class="pb-5 font-thin">T|W TOTE</h4>
+                                        <a href="/" >
+                                            <h4 class="uppercase font-medium tracking-widest leading-9 text-xl">CALLALOO GREEN LUXURY WEEKENDER - T|W TOTE</h4>
+                                        </a>
+
+                                        <p class="pt-5">£215</p>
+
+                                    </div>
+                      
+                                    <div class="pt-5 text-left">
+                                        <p class="pb-2">Pay in 4 interest-free installments of <b>$62.25</b>  with  <a href="/" class="underline lg:block ">Learn more</a> </p>
+
+                                       
+
+                                        <a href="/" class="border block max-w-[150px] border-black mt-3 w-full  py-2">
+                                            <div class="flex justify-around flex-row">
+                                                <span class="text-lg fofnt-semibold ">-</span>
+                                                <span class="text-lg fofnt-semibold ">1</span>
+                                                <span class="text-lg fofnt-semibold ">+</span>
+                                            </div>
+                                        
+                                       </a>
+
+                                       <p class=" pb-6 ">47 pieces in stock </p>
+
+                                       <a href="/" class="">
+                                        <button class="px-10 w-full block uppercase text-black hover:text-white text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-full after:w-0 after:top-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700  py-3  border font-medium text-sm border-black tracking-wider">PRE-ORDER . £215</button>
+                                      </a>
+                                      <div class="mt-8 flex flex-col justify-start items-start">
+                                            <a href="/" class="lg:self-start text-left">
+                                                <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">View product details</button>
+                                        </a>
+
+                                      </div>
+                             
+                                    </div>
+                  
+
+                                </div>
+                            </div>
+
+
+                         </div>
+                    
+                    </div>
+            
+                </section>
+               <!-- SHOWCASE PRODUCT SECTION END  -->
+
+               <!-- SECTION FOUR -  PRODUCT INTRO SECTION START  -->
+                <section class=" ">
+                    <div class="sticky top-[100px] flex justify-center items-center w-full h-screen bg-cover bg-center bg-no-repeat  bg-[url('image/bloogger.webp')]">
+                        <div class=" max-w-[350px] h-[200px] bg-black py-3 px-10 text-white flex justify-center items-center">
+                            <p class="text-center">T|W not only provides luxury lunch totes, we also offer travel bags and accessories. Check our duffle and weekender bags. Several customers have our items for multipurpose uses.</p>
+                        </div>
+                        
+                    </div>
+                </section>
+               <!-- PRODUCT INTRO SECTION END  -->
+
+               <!-- SECTION FIVE - PRODUCT SECTION START  -->
+                <section class="py-20 px-5 bg-primary">
+
+                    <div class="text-center">
+                        <h2 class="text-xl font-semibold leading-7 tracking-widest pb-5">OUR BEST SELLERS</h2>
+                        <div class="pt-10">
+                            <!-- PRODUCTS -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                                 <!-- PRODUCT -->
+                                <div>
+                                    <a href="/">
+                                        <div class="w-full h-screen bg-cover bg-center bg-no-repeat object-cover  bg-[url('./image/collection-img1.webp')] transition-all duration-1000 hover:bg-[url('./image/collection-img-3.webp')]">
+                                        </div>
+                                    </a>
+                             
+                                     <!-- CONTENT -->
+                                     <a href="/">
+                                        <div class="pt-4">
+                                            <p class="text-normal leading-7 tracking-widest pb-2">MERO BLACK LUXURY WEEKENDER - T|W TOTE</p>
+                                            <p>£215</p>
+    
+                                        </div>
+                                     </a>
+                             
+
+                                </div>
+                                 <!-- PRODUCT -->
+                                <div>
+                                    <a href="/">
+                                        <div class="w-full h-screen bg-cover bg-center bg-no-repeat  bg-[url('./image/collection-img2.webp')] transition-all duration-1000 hover:bg-[url('./image/collection-img-4b.webp')]">
+                                        </div>
+                                    </a>
+                            
+                                     <!-- CONTENT -->
+                                     <a href="/">
+                                        <div class="pt-4">
+                                            <p class="text-normal leading-7 tracking-widest pb-2">MERO BLACK LUXURY WEEKENDER - T|W TOTE</p>
+                                            <p>£215</p>
+    
+                                        </div>
+                                     </a>
+                         
+
+                                </div>
+                                 <!-- PRODUCT -->
+                                <div>
+                                    <a href="/">
+                                        <div class="w-full h-screen bg-cover bg-center bg-no-repeat  bg-[url('./image/collection-img-3.webp')] transition-all duration-1000 hover:bg-[url('./image/collection-img-7b.webp')]">
+                                        </div>
+                                    </a>
+                                
+                                     <!-- CONTENT -->
+                                     <a href="/">
+                                        <div class="pt-4">
+                                            <p class="text-normal leading-7 tracking-widest pb-2">MERO BLACK LUXURY WEEKENDER - T|W TOTE</p>
+                                            <p>£215</p>
+                                        </div>    
+                                     </a>
+                               
+                                </div>
+                                 <!-- PRODUCT -->
+                                <div>
+                                    <a href="/">
+                                        <div class="w-full h-screen bg-cover bg-center bg-no-repeat  bg-[url('./image/collection-img-4.webp')] transition-all duration-1000 hover:bg-[url('./image/collection-img-5b.webp')]">
+                                        </div>
+                                    </a>
+                                     <!-- CONTENT -->
+                                     <a href="/">
+                                        <div class="pt-4">
+                                            <p class="text-normal leading-7 tracking-widest pb-2">MERO BLACK LUXURY WEEKENDER - T|W TOTE</p>
+                                            <p>£215</p>
+                                        </div>
+                                     </a>
+                              
+
+                                </div>
+                
+
+                            </div>
+
+                            <div class="mt-12 flex flex-col justify-center items-center">
+                                <a href="/" class="">
+                                    <button class="px-10 w-full block uppercase bg-black text-white  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-full after:w-0 after:top-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700  py-3  border font-medium text-sm border-black tracking-wider">SHOP ALL BEST SELLERS</button>
+                                  </a>
+
+                          </div>
+
+                      
+                        </div>
+
+                    </div>
+            
+            
+                </section>
+               <!-- PRODUCT SECTION START  -->
+
+               <!-- SECTION SIX - PRODUCT VIDEO SECTION START  -->
+               <section class=" ">
+                <div class="w-full h-screen  relative">
+
+                    <iframe class="absolute top-0 left-0 w-full h-full"   
+                    src="https://www.youtube.com/embed/hYmMturpUkM?rel=0&;controls=0&modestbranding=1&autoplay=1&loop=1" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                   </iframe>
+                   
+                </div>
+          
+
+
+               </section>
+               <!-- PRODUCT VIDEO SECTION START  -->
+
+                <!-- SECTION SEVEN - TESTIMONIAL SECTION START  -->
+                <section class=" py-20 ">
+                    <div class="px-5">
+                        <div class="swiper testimonial">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide  py-5 px-3 transition-all duration-700 ">
+                                    <div class="max-w-[450px] mx-auto" >
+                                        <div class="text-center">
+                                            <p class="leading-7 text-xl">"I love it! It matches my professional sense of style, but also is designed in a way that makes it useful to carry lunch and anything else that may not fit in my pocket. So if you want to brush your teeth after lunch, or maybe have a small book for a book club, or a safe compartment for expensive headphones, or your lunch, the T|W Tote is clutch!"</p>
+                                        </div>
+                                    </div>
+                               
+                                  </div>
+                                <div class="swiper-slide   py-5 px-3 transition-all duration-700 ">
+                                    <div class="max-w-[450px] mx-auto" >
+                                        <div class="text-center">
+                                            <p class="leading-7 text-xl">"I love it! It matches my professional sense of style, but also is designed in a way that makes it useful to carry lunch and anything else that may not fit in my pocket. So if you want to brush your teeth after lunch, or maybe have a small book for a book club, or a safe compartment for expensive headphones, or your lunch, the T|W Tote is clutch!"</p>
+                                        </div>
+                                    </div>
+                               
+                                  </div>
+                                <div class="swiper-slide   py-5 px-3 transition-all duration-700 ">
+                                    <div class="max-w-[450px] mx-auto" >
+                                        <div class="text-center">
+                                            <p class="leading-7 text-xl">"I love it! It matches my professional sense of style, but also is designed in a way that makes it useful to carry lunch and anything else that may not fit in my pocket. So if you want to brush your teeth after lunch, or maybe have a small book for a book club, or a safe compartment for expensive headphones, or your lunch, the T|W Tote is clutch!"</p>
+                                        </div>
+                                    </div>
+                               
+                                  </div>
+                                <div class="swiper-slide   py-5 px-3 transition-all duration-700 ">
+                                    <div class="max-w-[450px] mx-auto" >
+                                        <div class="text-center">
+                                            <p class="leading-7 text-xl">"I love it! It matches my professional sense of style, but also is designed in a way that makes it useful to carry lunch and anything else that may not fit in my pocket. So if you want to brush your teeth after lunch, or maybe have a small book for a book club, or a safe compartment for expensive headphones, or your lunch, the T|W Tote is clutch!"</p>
+                                        </div>
+                                    </div>
+                               
+                                  </div>
+                             
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                     
+
+                  
+                    </div>
+            
+                </section>
+                <!-- TESTIMONIAL SECTION START  -->
+
+
+                <!-- SECTION EIGHT - FOUNDERS SECTION START  -->
+                <section class="py-20 px-5 bg-primary border-t-2 border-t-secondary">
+                    <div class="px-5">
+                        <div class="max-w-[1200px] mx-auto md:bg-white">
+                            <div class="swiper directors">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class=" md:grid grid-cols-1 md:grid-cols-2 relative w-full ">
+                                            <div class="bg-black bg-blend-overlay bg-opacity-30 w-full h-[500px] bg-cover bg-center bg-no-repeat  bg-[url('./image/collection-1-img.webp')]"> 
+                                            </div>
+        
+                                            <div class="absolute top-20  md:relative flex flex-col px-10 text-white md:text-black justify-center items-center md:justify-items-start ">
+                                                <h4 class="uppercase pb-5 md:self-start">GROWTH</h4>
+                                                <h5 class="uppercase pb-6 text-xl font-semibold md:self-start">GUINEP</h5>
+                                                <p class="leading-7 lg:text-base text-lg text-center md:text-left">We launched, <a href="/" class="underline" >Guinep</a> , in the late spring, 6 months after initial release of Mero. Our team was on to something. Sporting a fire red interior, Guinep is a head turner. What once was a founder mistake in development, is now our most popular color.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class=" md:grid grid-cols-1 md:grid-cols-2 relative ">
+                                            <div class="bg-black bg-blend-overlay bg-opacity-30 w-full h-[500px] bg-cover bg-center bg-no-repeat  bg-[url('./image/swipe2.webp')]"> 
+                                            </div>
+        
+                                            <div class="absolute top-20  md:relative flex flex-col px-10 text-white md:text-black justify-center items-center md:justify-items-start ">
+                                                <h4 class="uppercase pb-5 md:self-start">GROWTH</h4>
+                                                <h5 class="uppercase pb-6 text-xl font-semibold md:self-start">GUINEP</h5>
+                                                <p class="leading-7 lg:text-base text-lg text-center md:text-left">We launched, <a href="/" class="underline" >Guinep</a> , in the late spring, 6 months after initial release of Mero. Our team was on to something. Sporting a fire red interior, Guinep is a head turner. What once was a founder mistake in development, is now our most popular color.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class=" md:grid grid-cols-1 md:grid-cols-2 relative ">
+                                            <div class="bg-black bg-blend-overlay bg-opacity-30 w-full h-[500px] bg-cover bg-center bg-no-repeat  bg-[url('./image/slider3.webp')]"> 
+                                            </div>
+        
+                                            <div class="absolute top-20  md:relative flex flex-col px-10 text-white md:text-black justify-center items-center md:justify-items-start ">
+                                                <h4 class="uppercase pb-5 md:self-start">GROWTH</h4>
+                                                <h5 class="uppercase pb-6 text-xl font-semibold md:self-start">GUINEP</h5>
+                                                <p class="leading-7 lg:text-base text-lg text-center md:text-left">We launched, <a href="/" class="underline" >Guinep</a> , in the late spring, 6 months after initial release of Mero. Our team was on to something. Sporting a fire red interior, Guinep is a head turner. What once was a founder mistake in development, is now our most popular color.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class=" md:grid grid-cols-1 md:grid-cols-2 relative ">
+                                            <div class="bg-black bg-blend-overlay bg-opacity-30 w-full h-[500px] bg-cover bg-center bg-no-repeat  bg-[url('./image/collection-1-img.webp')]"> 
+                                            </div>
+        
+                                            <div class="absolute top-20  md:relative flex flex-col px-10 text-white md:text-black justify-center items-center md:justify-items-start ">
+                                                <h4 class="uppercase pb-5 md:self-start">GROWTH</h4>
+                                                <h5 class="uppercase pb-6 text-xl font-semibold md:self-start">GUINEP</h5>
+                                                <p class="leading-7 lg:text-base text-lg text-center md:text-left">We launched, <a href="/" class="underline" >Guinep</a> , in the late spring, 6 months after initial release of Mero. Our team was on to something. Sporting a fire red interior, Guinep is a head turner. What once was a founder mistake in development, is now our most popular color.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+                                <div class="swiper-pagination top-1 relative "></div>
+                          
+                        </div>
+
+                  
+                    </div>
+            
+                </section>
+                <!-- FOUNDERS SECTION START  -->
+
+                <!-- SECTION FIVE - BLOG SECTION START  -->
+                <section class="py-20 px-5 bg-primary border-t-2 border-t-secondary">
+
+                    <div class="text-center ">
+                        <h2 class="text-xl uppercase font-semibold leading-7 tracking-widest pb-5">FROM THE BLOG</h2>
+                        <div class="pt-10 flex-col justify-center items-center">
+                            <!-- PRODUCTS -->
+                            <div class="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                                <!-- PRODUCT -->
+                                <div class="w-full">
+                                    <div class="overflow-hidden">
+                                        <a href="/">
+                                            <div class="w-full transform scale-[1] transition-transform  hover:scale-[1.1] lg:w-[400px] h-[250px] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/image1.webp')]">
+                                            </div>
+                                        </a>
+                                    </div>
+                                 
+                                    <!-- CONTENT -->
+                                    <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                        <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                            T|W'S GUIDE TO HOLIDAY SELF CARE
+                                        </a>
+                                
+                                        <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">As we shift gears and head into the Fall season, it’s natural to look ahead to the upcoming holidays. For some this may mean excitement - it’s...</p>
+                                        <div class="mt-8 self-start">
+                                            <a href="/" class=" text-left">
+                                                <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                          </a>
+
+                                      </div>
+                                    </div>
+                            
+                                </div>
+                      
+                                <!-- PRODUCT -->
+                                <div class="w-full">
+                                    <div class="overflow-hidden">
+                                        <a href="/">
+                                            <div class="w-full transform scale-[1] transition-transform  hover:scale-[1.1] lg:w-[400px] h-[250px] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/bloogger.webp')]">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- CONTENT -->
+                                    <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                        <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                            T|W'S GUIDE TO HOLIDAY SELF CARE
+                                        </a>
+                                
+                                        <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">As we shift gears and head into the Fall season, it’s natural to look ahead to the upcoming holidays. For some this may mean excitement - it’s...</p>
+                                        <div class="mt-8 self-start">
+                                            <a href="/" class=" text-left">
+                                                <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                          </a>
+
+                                      </div>
+                                    </div>
+                            
+                                </div>
+                      
+                                <!-- PRODUCT -->
+                                <div class="w-full">
+                                    <div class="overflow-hidden">
+                                        <a href="/">
+                                            <div class="w-full transform scale-[1] transition-transform  hover:scale-[1.1] lg:w-[400px] h-[250px] bg-cover bg-center bg-no-repeat object-cover duration-[1.2s] bg-[url('./image/next.webp')]">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- CONTENT -->
+                                    <div class="w-full lg:w-[400px] h-auto  pt-4  text-center flex flex-col justify-center items-center">
+                                        <a href="/" class="px-6 pb-4 text-left text-lg uppercase font-semibold leading-7 tracking-widest">
+                                            T|W'S GUIDE TO HOLIDAY SELF CARE
+                                        </a>
+                                
+                                        <p class="text-normal leading-7 pl-3 text-left first-letter::pl-5  tracking-widest pb-2">As we shift gears and head into the Fall season, it’s natural to look ahead to the upcoming holidays. For some this may mean excitement - it’s...</p>
+                                        <div class="mt-8 self-start">
+                                            <a href="/" class=" text-left">
+                                                <button class=" p-1 block text-black  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-[0.5px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700 uppercase   border-b hover:border-0 font-medium text-sm border-b-black">Read more</button>
+                                          </a>
+
+                                      </div>
+                                    </div>
+                            
+                                </div>
+                            </div>
+
+                            <div class="mt-14 flex flex-col justify-center items-center">
+                                <a href="/" class="">
+                                    <button class="px-10 w-full block uppercase bg-black text-white  text-center whitespace-nowrap  relative z-two hover:bg-transparent  after:-z-one after:bg-black after:content-[''] after:h-full after:w-0 after:top-0 after:left-0 hover:after:w-full after:absolute after:transition-all  after:duration-700  py-3  border font-medium text-sm border-black tracking-wider">VIEW ALL BLOGS</button>
+                                  </a>
+
+                          </div>
+
+
+                
+
+                    
+                        </div>
+
+                    </div>
+
+
+                </section>
+               <!-- BLOG SECTION START  -->
+
+
+               
+                <!--===========  Footer -->
+                <footer class="py-20 px-5 bg-black text-white">
+                    <div class="relative">
+
+                        <div class="max-w-screen-2xl lg:px-10   mx-auto flex md:grid md:grid-cols-2 lg:grid-cols-3 justify-between lg:items-center flex-col lg:flex-row">
+            
+                            <!-- ========Footer 1 -->
+                            <div  class="mb-5 self-start">
+                                <h4 class="text-secondary-200 font-semibold text-base">PRODUCT INFO</h4> 
+                                <div class="mt-5">
+                                    <ul role="list" class="text-left text-white">
+                                        <a href="./qualitypromise.html" class="block">
+                                        <li class="">
+                                            <h3 class="pb-1 font-light ">Quality Promise</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./howitsmade.html" class="block">
+                                        <li class="">
+                                            <h3 class="pb-1 font-light ">How It's Made</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./returnpolicy.html" class="block">
+                                        <li class="">
+                                            <h3 class="pb-1 font-light ">Return Policy</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./warranty.html" class="block">
+                                        <li class="">
+                                            <h3 class="pb-1 font-light ">Warranty</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./shipping.html" class="block">
+                                        <li class="">
+                                            <h3 class="pb-1 font-light ">Shipping</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./billing" class="block">
+                                        <li class="">
+                                            <h3 class="pb-1 font-light ">Billing</h3>
+                                        </li>
+                                        </a>
+                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <!-- ========Footer 2 -->
+                            <div  class="mb-5 self-start">
+        
+                                <h4 class="text-secondary-200 font-semibold text-base">GENERAL INFO</h4>   
+                                <div class="mt-5">
+                                    <ul role="list" class="text-left text-white">
+                                        <a href="./contact-us.html" class="block">
+                                        <li class="">
+                                            <h3 class ="pb-1 font-medium" >Contact Us</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./about-us.html" class="block">
+                                        <li class="">
+                                            <h3 class ="pb-1 font-medium">About Us</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./career.html" class="block">
+                                        <li class="">
+                                            <h3 class ="pb-1 font-medium">Careers</h3>
+                                        </li>
+                                        </a>
+                                        <a href="./blog-library.html" class="block">
+                                        <li class="">
+                                            <h3 class ="pb-1 font-medium">Blog Library</h3>
+                                        </li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <!-- ========Footer 3 -->
+                            <div class="mb-5 self-start md:col-start-1 md:col-end-3 lg:col-start-3 lg:col-end-4">
+                                <div class="">
+                                <h4 class="mb-5">ABOUT THE STORE</h4>
+                                    <p>As a luxury brand, T|W Tote wants to change how people view sustainable products. Consider the T|W Tote a look great and feel great purchase. Our product guarantees to boost your confidence and inspire intrigue with this professional-looking bag. Sporting this tote not only means you’re supporting a Black-owned small business. It means you're helping the planet, too.</p>
+                                </div>
+    
+                                <div class="py-5 flex justify-between items-center max-w-[180px]">
+                                    <a href="/">
+                                        <span ><iconify-icon class="font-bold text-xl " icon="ei:sc-facebook"></iconify-icon></span>
+                                    </a>
+                                    <a href="/">
+                                        <span ><iconify-icon class="font-bold text-xl " icon="carbon:logo-twitter"></iconify-icon></span>
+                                    </a>
+                                    <a href="/">
+                                        <span ><iconify-icon class="font-bold text-xl " icon="la:instagram"></iconify-icon></span>
+                                    </a>
+                                    <a href="/">
+                                        <span ><iconify-icon class="font-bold text-xl " icon="bxl:pinterest"></iconify-icon></span>
+                                        
+                                    </a>
+                                </div>
+                            
+                            </div>
+    
+                            <div class="self-center lg:self-start col-start-1 col-end-4 ">
+                                 <div>
+                                    <p>© T|W TOTE </p>
+                                    <span class="block ">Powered by Shopify</span> 
+                                 </div>
+    
+                                 <div>
+    
+                                 </div>
+                            </div>
+                        
+                          </div>
+
+                          <div class="cursor-pointer open_contact_form fixed bottom-0 rounded-t-md uppercase right-0 p-1 text-normal font-bold bg-red-700 text-white">
+                             contact us
+                          </div>
+
+                    </div>
+                 
+            
+                </footer>
+            
+                            
+
+            
+            </main>
+
+       </div>
+
+       <div class="bg-black close_form  contact_form bg-blend-overlay bg-opacity-40 flex justify-center items-center  fixed w-full h-full top-0 shadow-gray-600 shadow-2xl z-30">
+            <div class=" bg-red-800 px-3 rounded-md py-4  fixed   text-white">
+                <div class="flex justify-between">
+                  <h2 class="pb-4 font-semibold text-xl">Contact us</h2>
+                  <svg class="text-white form_harmbuger cursor-pointer" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                 </svg>
+                </div>
+                 <p class="pb-3">Have a question? Want to offer feedback? Something on your mind?</p>
+                <div>
+                    <form action="">
+                        <div class="py-2.5">
+                            <label for="name" class="pb-2">Name:</label>
+                            <input type="text" name="" id="" class="pl-3 py-2 outline-none  rounded-sm border-0 w-full bg-white text-black">
+                        </div>
+                        <div class="py-2.5">
+                            <label for="name" class="pb-2">Email:</label>
+                            <input type="text" name="" id="" class="pl-3 py-2 outline-none rounded-sm border-0 w-full bg-white text-black">
+                        </div>
+                        <div class="py-2.5">
+                            <label for="name" class="pb-2"> Subject:</label>
+                            <input type="text" name="" id="" class="pl-3 py-2 outline-none rounded-sm border-0 w-full bg-white text-black">
+                        </div>
+                        <div class="py-2.5">
+                            <label for="name" class="pb-2">Message:</label>
+                            <textarea name="" id="" cols="30" rows="3" class="pl-3 resize-none py-2 outline-none rounded-sm border-0 w-full bg-white text-black"></textarea>
+                        </div>
+
+                        <div>
+                            <button class="px-3 py-2 bg-black text-white rounded-sm border-0  outline-none">Send Message</button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+       </div>
+
+    </div>
+
+  
+    
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- ICONIFY ICON -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+        <!--  JS JQUERY  -->
+        <script src="./Js/jquery.js"></script>
+        <!-- CUSTOM JS  -->
+        <script src="./js/script.js"></script>
+</body>
+</html>
